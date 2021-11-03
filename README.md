@@ -1,4 +1,4 @@
-# School-website "MEDEDU SCHOOL"
+# School-Website "MEDEDU SCHOOL"
 
 ![](img/Preview.gif)
 
