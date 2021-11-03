@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Ecole website</title>
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="bar ">
+    <!-- TopBar -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="social-media">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-details">
+              <ul>
+                <li><i class="fas fa-phone fa-rotate-90"></i> +216 24 924 807</li>
+                <li><i class="fas fa-map-marker-alt"></i> 8021 , Beni Khalled , Nabeul</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end TopBar -->
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span> MED</span>Edu school</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html" data-scroll="home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="activities.html" >activities</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" data-scroll="teachers">teachers</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#testimonials" data-scroll="testimonials">testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contact" data-scroll="contact">contact</a></li>
+              <li class="nav-item "><a class="nav-link btn-warning" href="inscription.html" data-scroll="inscription">registration</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+  </div>
+
+  <section class="inscription">
+    <div class="inscri-content">
+      <div class="inscri-img">
+        <img src="img/inscri.jpg" alt="">
+      </div>
+      <div class="inscri-form">
+        <form method="POST" class="register-form" id="register-form">
+          <h2 >registration form</h2>
+          <hr>
+          <div class="form-row mt-5">
+            <div class="form-group">
+              <label for="name">First Name :</label>
+              <input type="text" name="name" id="name" required/>
+            </div>
+            <div class="form-group">
+              <label for="father_name">Last Name :</label>
+              <input type="text" name="father_name" id="father_name" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="birth_date"> Birthday date :</label>
+              <input type="date" name="birth_date" id="birth_date">
+            </div>
+            <div class="form-group">
+              <label for="city">City :</label>
+              <div class="form-select">
+                <select name="city" id="city">
+                  <option value="default">-- SELECT CITY --</option>
+                  <option value="beni_khalled">Beni Khalled</option>
+                  <option value="Beni_khiar">Beni khiar</option>
+                  <option value="">Dar chaaben</option>
+                  <option value="">Gambelia</option>
+                  <option value="">Menzel bouzelfa</option>
+                  <option value="">Nabeul center</option>
+                </select>
+                <span class="select-icon"><i class="fa fa-chevron-down"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="address">Address :</label>
+            <input type="text" name="address" id="address" required/>
+          </div>
+          <div class="form-radio">
+            <label for="gender" class="radio-label">Gender :</label>
+            <div class="form-radio-item">
+              <input type="radio" name="gender" id="male" checked>
+              <label for="male">Male</label>
+              <span class="check"></span>
+            </div>
+            <div class="form-radio-item">
+              <input type="radio" name="gender" id="female">
+              <label for="female">Female</label>
+              <span class="check"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="course">Course :</label>
+            <div class="form-select">
+              <select name="grade1" id="grade">
+                <option value="">-- SELECT Grade --</option>
+                <option value="grade1">Grade 1</option>
+                <option value="grade1">Grade 2</option>
+                <option value="grade1">Grade 3</option>
+                <option value="grade1">Grade 4</option>
+                <option value="grade1">Grade 5</option>
+                <option value="grade1">Grade 6</option>
+              </select>
+              <span class="select-icon"><i class="fa fa-chevron-down""></i></span>
+            </div>
+          </div>
+          Information For Guardian :
+          <div class="form-group">
+            <label>Guardian Name  :</label>
+            <input type="text" name="Guardian_Name" id="Guardian_Name">
+          </div>
+          <div class="form-group">
+            <label>Phone Number :</label>
+            <input type="text" name="Phone_Number " id="Phone_Number ">
+          </div>
+          <div class="form-group">
+            <label >E-mail :</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-submit mb-5">
+            <input type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+<!-- start footer  -->
+<footer >
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="clearfix">
+          <h3 class="title">About US</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente animi distinctio enim! Quisquam nihil sint nam quibusdam eligendi, eum libero? Accusantium eius ratione tem.</p>
+          <ul class="footer-social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="clearfix">
+          <h3 class="title">Information Link</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="inscription.html">Inscrit</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12">
+        <div class="clearfix">
+          <div class="title"><h3>Contact Details</h3></div>
+          <ul class="footer-links">
+            <li><a href="mailto:medberrima0@gmail.com">   <i class="fas fa-envelope"></i> Medu.school@gmail.com</a></li>
+            <li><a href="http://medberrima.me/" target="_blank" > <i class="fas fa-globe"></i> MedEducationschool.com</a></li>
+            <li><a href=""><i class="fas fa-phone"></i> +216 24 924 807</a></li>
+          </ul>
+        </div>
+    </div>
+    </div>
+  </div>  
+</footer>
+
+<!-- start copyrights -->
+<div class="copyrights bg-dark">
+  <div class="container">
+    <p class="pt-2">All Rights Reserved. &copy; 2021 <a href="http://medberrima.me/" target="_blank">Med Berrima</a> ,thanks for watching !</p>
+  </div>                   
+</div>
+<!-- end copyrights -->
+
+
+
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
